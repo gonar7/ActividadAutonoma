@@ -1,0 +1,41 @@
+/* Ajusta tamaño y centrado */
+.carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.contenedor-texto {
+    max-width: 65%;
+    margin: 40px auto; /* centrado horizontal + separación vertical */
+    padding: 2px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+.imagen-centrada {
+    display: block;
+    margin: 0 auto 20px auto; /* centrar horizontal + espacio debajo */
+    max-width: 100%; /* evita que se desborde */
+    height: auto;    /* mantiene proporciones */
+}
+
+.titulo-dom {
+    font-size: 2em;           /* Letra grande */
+    font-weight: bold;        /* Negrita */
+    margin-bottom: 15px;      /* Espacio debajo del título */
+    text-align: center;       /* Centrado horizontal */
+    font-family: sans-serif;  /* Fuente clara y moderna */
+}
+
